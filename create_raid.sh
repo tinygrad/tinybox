@@ -4,5 +4,6 @@ mkfs.ext4 /dev/md0
 mkdir -p /raid
 mount /dev/md0 /raid/
 mkdir -p /raid/weights
-chown tiny:tiny /raid/weights
+mkdir -p /raid/datasets
+chown tiny:tiny /raid/weights /raid/datasets
 
